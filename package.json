@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "check": "tsc -p tsconfig.json --noEmit"
+    "check": "tsc -p tsconfig.json --noEmit",
+    "package": "npm run build && rm -f classic-workspace-favicons.zip && zip -r classic-workspace-favicons.zip manifest.json dist assets icons README.md SOURCES.md PRIVACY.md -x '*.DS_Store'"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
