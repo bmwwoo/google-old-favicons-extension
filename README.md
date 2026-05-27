@@ -10,7 +10,26 @@ This is an unofficial browser extension and is not affiliated with, endorsed by,
 
 ![Older Google favicons restored in Chrome tabs](docs/old-google-favicons-preview.png)
 
+## Install in Chrome
+
+The extension is already built in `unpacked/classic-workspace-favicons`.
+
+1. Download this repository from GitHub and unzip it.
+2. Open `chrome://extensions` in Chrome.
+3. Enable **Developer mode**.
+4. Click **Load unpacked**.
+5. Select the `unpacked/classic-workspace-favicons` folder.
+6. Reload any open Google app tabs.
+
+If you are using this local checkout directly, select:
+
+```text
+/Users/brandon/workspace/google-old-favicons-extension/unpacked/classic-workspace-favicons
+```
+
 ## Build
+
+Only needed if you change the TypeScript source:
 
 ```sh
 npm install
@@ -24,17 +43,6 @@ npm run package
 ```
 
 The upload ZIP is written to `classic-workspace-favicons.zip`.
-
-## Load in Chrome
-
-1. Open `chrome://extensions`.
-2. Enable **Developer mode**.
-3. Click **Load unpacked**.
-4. Select `/Users/brandon/workspace/google-old-favicons-extension/unpacked/classic-workspace-favicons`.
-
-Reload any open Google app tabs after loading the extension.
-
-The `unpacked/classic-workspace-favicons` folder is prebuilt and contains only the files Chrome needs.
 
 ## Chrome Web Store Notes
 
