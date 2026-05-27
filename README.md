@@ -6,6 +6,10 @@ The extension does not need network access or Chrome permissions. Icon sources a
 
 This is an unofficial personal browser extension and is not affiliated with, endorsed by, or sponsored by Google. Google product names and icons are trademarks of Google LLC.
 
+## Preview
+
+![Older Google favicons restored in Chrome tabs](docs/old-google-favicons-preview.png)
+
 ## Build
 
 ```sh
