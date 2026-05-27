@@ -24,8 +24,10 @@ The extension is already built in `unpacked/classic-workspace-favicons`.
 If you are using this local checkout directly, select:
 
 ```text
-/Users/brandon/workspace/google-old-favicons-extension/unpacked/classic-workspace-favicons
+/Users/YOUR_USERNAME/workspace/google-old-favicons-extension/unpacked/classic-workspace-favicons
 ```
+
+Replace `YOUR_USERNAME` with your Mac username.
 
 ## Build
 
