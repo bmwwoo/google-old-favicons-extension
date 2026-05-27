@@ -21,13 +21,13 @@ The extension is already built in `unpacked/classic-workspace-favicons`.
 5. Select the `unpacked/classic-workspace-favicons` folder.
 6. Reload any open Google app tabs.
 
-If you are using this local checkout directly, this is the path to the Chrome extension folder you should select:
+This is the path to the Chrome extension folder you should select, wherever you downloaded or unzipped this repository:
 
 ```text
-/Users/YOUR_USERNAME/workspace/google-old-favicons-extension/unpacked/classic-workspace-favicons
+/path/to/google-old-favicons-extension/unpacked/classic-workspace-favicons
 ```
 
-Replace `YOUR_USERNAME` with your Mac username.
+Replace `/path/to/google-old-favicons-extension` with the actual location of this downloaded repository on your computer.
 
 ## Build
 
