@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "check": "tsc -p tsconfig.json --noEmit",
-    "package": "npm run build && rm -f classic-workspace-favicons.zip && zip -r classic-workspace-favicons.zip manifest.json dist assets icons README.md SOURCES.md PRIVACY.md -x '*.DS_Store'"
+    "build:unpacked": "npm run build && rm -rf unpacked/classic-workspace-favicons && mkdir -p unpacked/classic-workspace-favicons && cp -R manifest.json dist assets icons unpacked/classic-workspace-favicons/",
+    "package": "npm run build:unpacked && rm -f classic-workspace-favicons.zip && cd unpacked/classic-workspace-favicons && zip -r ../../classic-workspace-favicons.zip . -x '*.DS_Store'"
   },
   "devDependencies": {
     "typescript": "^5.9.3"

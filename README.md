@@ -30,9 +30,11 @@ The upload ZIP is written to `classic-workspace-favicons.zip`.
 1. Open `chrome://extensions`.
 2. Enable **Developer mode**.
 3. Click **Load unpacked**.
-4. Select `/Users/brandon/workspace/google-old-favicons-extension`.
+4. Select `/Users/brandon/workspace/google-old-favicons-extension/unpacked/classic-workspace-favicons`.
 
 Reload any open Google app tabs after loading the extension.
+
+The `unpacked/classic-workspace-favicons` folder is prebuilt and contains only the files Chrome needs.
 
 ## Chrome Web Store Notes
 
